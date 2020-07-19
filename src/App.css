@@ -1,0 +1,101 @@
+.App {
+  background-color: #F0F3FF;
+  text-align: center;
+  display: flex;
+}
+
+.Main {
+  margin: 3rem;
+  background-color: white;
+  display: flex;
+  flex-wrap: nowrap;
+  flex: 1;
+  box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+  flex-direction: column;
+  min-height: 30rem;
+}
+
+
+#main-title{
+  display: flex;
+  flex: 2;
+  padding-top: 2rem;
+  padding-left: 5rem;
+}
+
+#main-title h1{
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #2E282C;
+}
+
+
+#main-choose{
+  display: flex;
+  flex: 1;
+  align-items: center;
+}
+
+#main-choose p{
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+#main-content{
+  display: flex;
+  flex-wrap: wrap;
+  flex: 10;
+  justify-content: center;
+}
+
+.MainContentImage{
+  display: flex;
+  flex-direction: column;
+  width: 25rem;
+  height: 15rem;
+  margin: 2rem;
+  background-size: cover;
+}
+
+.MainContentImageDay{
+  display: flex;
+  flex: 6;
+  color: white;
+  border: 2px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 6px;
+  width: 3rem;
+  height: 1rem;
+  margin: 1rem;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.MainContentImageEmpty{
+  display: flex;
+  flex: 10;
+}
+
+.MainContentImageTitle{
+  display: flex;
+  flex: 8;
+  color: white;
+  flex-direction: row;
+  align-items: center;
+}
+
+.MainContentImageTitleText{
+  margin-left: 1.5rem;
+}
+.MainContentImageTitleText h1 {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.3rem;
+  line-height: 1rem;
+}
